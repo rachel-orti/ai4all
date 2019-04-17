@@ -12,7 +12,7 @@ You can run the Jupyter notebooks using a Jupyter Notebook server that is provid
 
 **Requirements:** You must have Docker installed.
 
-- From the <code>fairness/docker</code> folder, use the following command to launch the Jupyter Notebook server with <code>docker-compose</code>:
+- From the <code>docker</code> folder, use the following command to launch the Jupyter Notebook server with <code>docker-compose</code>:
 
 > docker-compose up
 
@@ -22,7 +22,7 @@ You can run the Jupyter notebooks using a Jupyter Notebook server that is provid
 
 ### Run the Jupyter notebooks
 
-Some notebooks are provided in the <code>fairness/docker/notebook/resources/jupyter/work</code> folder:
+Some notebooks are provided in the <code>docker/notebook/resources/jupyter/work</code> folder:
 
 - AIF360_COMPAS.ipynb
 - WIT_COMPAS.ipynb
