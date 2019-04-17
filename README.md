@@ -29,12 +29,13 @@ Some notebooks are provided in the <code>docker/notebook/resources/jupyter/work<
 
 They are directly accessible at the following URL when the Jupyper Notebook server is up and running: [http://localhost:8888/tree/work](http://localhost:8888/tree/work)
 
-## Useful links about Fairness in AI 
-
-TODO: add remaining links
+## Useful links about fairness in AI 
 
 ### General articles about bias in AI
 * [Are Algorithms Building the New Infrastructure of Racism?](http://nautil.us/issue/55/trust/are-algorithms-building-the-new-infrastructure-of-racism)
+* [Artificial Intelligence and Privacy](https://www.datatilsynet.no/globalassets/global/english/ai-and-privacy.pdf)
+* [Bias detectives: the researchers striving to make algorithms fair](https://www.nature.com/articles/d41586-018-05469-3)
+* [How to prevent bias in machine learning](https://becominghuman.ai/how-to-prevent-bias-in-machine-learning-fbd9adf1198)
 
 ### Examples
 * [Project Norman](http://norman-ai.mit.edu/)
@@ -51,3 +52,10 @@ TODO: add remaining links
 * What-If (Google):
     * [Overview](https://pair-code.github.io/what-if-tool/)
     * [Github](https://github.com/tensorflow/tensorboard/tree/master/tensorboard/plugins/interactive_inference)
+* [Audit AI](https://github.com/pymetrics/audit-ai)(Pymetrics)
+* [AI Openscale](https://cloud.ibm.com/docs/services/ai-openscale)(IBM)
+* [Teach & Test AI](https://www.accenture.com/us-en/insights/technology/testing-AI)(Accenture)
+* [Lime](https://github.com/marcotcr/lime) 
+* Activation Atlas (Google):
+    * [Overview](https://distill.pub/2019/activation-atlas/)
+    * [Github](https://github.com/distillpub/post--activation-atlas) 
