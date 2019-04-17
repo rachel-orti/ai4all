@@ -1,0 +1,22 @@
+version: '2.4'
+services:
+  notebook:
+      build:
+        context: ./notebook
+        dockerfile: Dockerfile
+      volumes:
+        - ${LOCAL_WORKING_DIR}:/home/jovyan/work
+        - ${LOCAL_DATASETS}:/home/jovyan/work/datasets
+        - ${LOCAL_MODULES}:/home/jovyan/work/modules
+#       - ${LOCAL_SSL_CERTS}:/etc/ssl/notebook
+      ports:
+        - 8888:8888
+      container_name: fairness-jupyter-notebook
+      command: "start-notebook.sh \
+        --NotebookApp.token='' --NotebookApp.password=''"
+      volumes:
+        - ${LOCAL_WORKING_DIR}:/home/jovyan/work
+        - ${LOCAL_DATASETS}:/home/jovyan/work/datasets
+        - ${LOCAL_MODULES}:/home/jovyan/work/modules
+      #environment:
+      #  - JUPYTER_TOKEN=${ACCESS_TOKEN}
