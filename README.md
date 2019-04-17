@@ -27,7 +27,7 @@ Some notebooks are provided in the <code>fairness/docker/notebook/resources/jupy
 - AIF360_COMPAS.ipynb
 - WIT_COMPAS.ipynb
 
-They are directly accessible at the following URL when the Jupyper Notebook server is up and running: [http://localhost:8888/work](http://localhost:8888/work)
+They are directly accessible at the following URL when the Jupyper Notebook server is up and running: [http://localhost:8888/tree/work](http://localhost:8888/tree/work)
 
 ## Useful links about Fairness in AI 
 
