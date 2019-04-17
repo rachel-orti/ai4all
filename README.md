@@ -1,4 +1,4 @@
-# Fairness Demo
+# Artificial Intelligence for all
 
 ## Overview
 
