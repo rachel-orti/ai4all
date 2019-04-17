@@ -11,7 +11,7 @@ services:
 #       - ${LOCAL_SSL_CERTS}:/etc/ssl/notebook
       ports:
         - 8888:8888
-      container_name: fairness-jupyter-notebook
+      container_name: ai4all-jupyter-notebook
       command: "start-notebook.sh \
         --NotebookApp.token='' --NotebookApp.password=''"
       volumes:
