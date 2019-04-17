@@ -42,6 +42,7 @@ TODO: add remaining links
     * [ProPublica Investigation](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
     * [AI is convicting criminals and determining jail time, but is it fair?](https://www.weforum.org/agenda/2018/11/algorithms-court-criminals-jail-time-fair/)
 * [Gender Shades](http://gendershades.org/)
+    * [2nd Study Results](https://dam-prod.media.mit.edu/x/2019/01/24/AIES-19_paper_223.pdf)
 
 ### Tools
 * AI Fairness 360 Toolkit (IBM):  
