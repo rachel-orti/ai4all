@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Git repository contains code & links related to a presentation from Rachel Orti and Melanie Shilpa Rao at Devoxx France 2019, "L'Intelligence Artificielle pour tous" (Artificial Intelligence for all).
+This Git repository contains related material to a presentation from Rachel Orti and Melanie Shilpa Rao at Devoxx France 2019, "L'Intelligence Artificielle pour tous" (Artificial Intelligence for all). 
 
 ## Installation Guide
 
