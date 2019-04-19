@@ -16,7 +16,7 @@ You can run the Jupyter notebooks using a Jupyter Notebook server that is provid
 
 > docker-compose up
 
-> *NB:* Use <code>docker-compose down</code> to stop all the Docker container.
+> *NB:* Use <code>docker-compose down</code> to stop the Docker container.
 
 - The Jupyter Notebook server is then available at the following URL: [http://localhost:8888](http://localhost:8888)
 
@@ -24,19 +24,26 @@ You can run the Jupyter notebooks using a Jupyter Notebook server that is provid
 
 Some notebooks are provided in the <code>docker/notebook/resources/jupyter/work</code> folder:
 
-- AIF360_COMPAS.ipynb
-- WIT_COMPAS.ipynb
+- <code>AIF360_COMPAS.ipynb</code> - Example of bias removal in dataset using the Reweighing bias mitigation algorithm implemented in the AI Fairness 360 Toolkit (IBM)
+- <code>WIT_COMPAS.ipynb</code> - Example of bias removal in model using the What-If tool (Google)
 
 They are directly accessible at the following URL when the Jupyper Notebook server is up and running: [http://localhost:8888/tree/work](http://localhost:8888/tree/work)
 
-## Useful links about Fairness in AI 
+## Useful links about fairness in AI 
 
-TODO: add remaining links
+### General articles about bias in AI
+* [Are Algorithms Building the New Infrastructure of Racism?](http://nautil.us/issue/55/trust/are-algorithms-building-the-new-infrastructure-of-racism)
+* [Artificial Intelligence and Privacy](https://www.datatilsynet.no/globalassets/global/english/ai-and-privacy.pdf)
+* [Bias detectives: the researchers striving to make algorithms fair](https://www.nature.com/articles/d41586-018-05469-3)
+* [How to prevent bias in machine learning](https://becominghuman.ai/how-to-prevent-bias-in-machine-learning-fbd9adf1198)
 
 ### Examples
 * [Project Norman](http://norman-ai.mit.edu/)
-* [COMPAS - Investigation ProPublica](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+* COMPAS:
+    * [ProPublica Investigation](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+    * [AI is convicting criminals and determining jail time, but is it fair?](https://www.weforum.org/agenda/2018/11/algorithms-court-criminals-jail-time-fair/)
 * [Gender Shades](http://gendershades.org/)
+    * [2nd Study Results](https://dam-prod.media.mit.edu/x/2019/01/24/AIES-19_paper_223.pdf)
 
 ### Tools
 * AI Fairness 360 Toolkit (IBM):  
@@ -45,3 +52,10 @@ TODO: add remaining links
 * What-If (Google):
     * [Overview](https://pair-code.github.io/what-if-tool/)
     * [Github](https://github.com/tensorflow/tensorboard/tree/master/tensorboard/plugins/interactive_inference)
+* [Audit AI](https://github.com/pymetrics/audit-ai)(Pymetrics)
+* [AI Openscale](https://cloud.ibm.com/docs/services/ai-openscale)(IBM)
+* [Teach & Test AI](https://www.accenture.com/us-en/insights/technology/testing-AI)(Accenture)
+* [Lime](https://github.com/marcotcr/lime) 
+* Activation Atlas (Google):
+    * [Overview](https://distill.pub/2019/activation-atlas/)
+    * [Github](https://github.com/distillpub/post--activation-atlas) 
